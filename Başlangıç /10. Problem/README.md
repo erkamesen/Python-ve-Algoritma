@@ -1,0 +1,1 @@
+# Soru 10 - Başlangıç

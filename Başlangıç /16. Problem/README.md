@@ -1,0 +1,1 @@
+# Soru 16 - Başlangıç

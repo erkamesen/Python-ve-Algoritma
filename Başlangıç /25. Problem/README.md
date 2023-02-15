@@ -1,0 +1,1 @@
+# Soru 25 - Başlangıç

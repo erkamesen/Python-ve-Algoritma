@@ -1,0 +1,1 @@
+# Soru 42 - Başlangıç

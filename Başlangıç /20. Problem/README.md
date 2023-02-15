@@ -1,0 +1,1 @@
+# Soru 20 - Başlangıç

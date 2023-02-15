@@ -1,0 +1,1 @@
+# Soru 39 - Başlangıç

@@ -1,0 +1,1 @@
+# Soru 17 - Başlangıç

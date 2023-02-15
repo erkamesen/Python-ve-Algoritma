@@ -1,0 +1,1 @@
+# Soru 23 - Başlangıç

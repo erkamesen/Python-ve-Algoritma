@@ -1,0 +1,1 @@
+# Soru 19 - Başlangıç

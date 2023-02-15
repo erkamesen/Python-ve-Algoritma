@@ -1,0 +1,1 @@
+# Soru 43 - Başlangıç

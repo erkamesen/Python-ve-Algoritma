@@ -1,0 +1,1 @@
+# Soru 24 - Başlangıç

@@ -1,0 +1,1 @@
+# Soru 32 - Başlangıç

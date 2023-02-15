@@ -1,0 +1,1 @@
+# Soru 27 - Başlangıç

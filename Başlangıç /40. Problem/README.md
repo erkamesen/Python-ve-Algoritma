@@ -1,0 +1,1 @@
+# Soru 40 - Başlangıç

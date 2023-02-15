@@ -1,0 +1,1 @@
+# Soru 28 - Başlangıç

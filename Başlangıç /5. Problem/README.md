@@ -1,0 +1,1 @@
+# Soru 5 - Başlangıç

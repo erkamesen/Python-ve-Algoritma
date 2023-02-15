@@ -1,0 +1,1 @@
+# Soru 41 - Başlangıç
