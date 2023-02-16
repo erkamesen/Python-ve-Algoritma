@@ -25,6 +25,8 @@
 6. [Dizilerde Slice ve Index](https://github.com/erkamesen/Python-ve-Algoritma#dizilerde-slice-ve-index) <br>
 6.1 [Index](https://github.com/erkamesen/Python-ve-Algoritma#index) <br>
 6.2 [Slice](https://github.com/erkamesen/Python-ve-Algoritma#slice) <br>
+7. [Koşullar](https://github.com/erkamesen/Python-ve-Algoritma/blob/main/README.md#ko%C5%9Fullar)
+8. [Hata Yakalama]((https://github.com/erkamesen/Python-ve-Algoritma#hata-yakalama))
 
 
 # Algoritma
@@ -75,9 +77,9 @@ Algoritmanın belirli semboller yardımı ile görsel bir şekilde oluşturulmas
 
 ### Mantıksal Operatörler
 
-- Ve(and) operatörü && simgesi ile ifade edilir. True dönmesi için tüm durumların True olması gerekiyor.
-- Veya(or) operatörü II simgesi ile ifade edilir. True dönmesi için her hangi bir durumun True olması gerekiyor.
-- Değil (not) operatörü ! simgesi ile ifade edilir. Durum True ise False, False ise True döndürüyor.
+- Ve(and) operatörü && simgesi ile ifade edilir.Python da "and" ile ifade edilir. True dönmesi için tüm durumların True olması gerekiyor.
+- Veya(or) operatörü II simgesi ile ifade edilir.Python da "or" ile ifade edilir. True dönmesi için her hangi bir durumun True olması gerekiyor.
+- Değil (not) operatörü ! simgesi ile ifade edilir.Python da "not" veya "!" ile ifade edilir. Durum True ise False, False ise True döndürüyor.
 
 # Python
 ## Temel Veri Tipleri
@@ -257,6 +259,21 @@ else:
     # Veri çekilmezse yapılacak işlemler.
 ```
 Özetlemek gerekirse; eğer veri çekilip de listemize eklenirse listemiz True değer döndürecektir lakin siteden veri kalkmış olabilir veya HTML tag leri değişmiş olabilir böyle bir durumda veriyi çekemeyeceğimizden listemiz boş olacaktır bu sebeple bize False değer döndürecektir ve dolayısıyla else bloğu çalışacaktır.
+
+## Hata Yakalama
+
+
+![12345 finally 1](https://user-images.githubusercontent.com/120065120/219376767-2fea18f2-d3de-48c1-9e06-b5f43c0bf88e.jpg)
+
+```
+try:
+    Normal durumda çalışan blok
+except <Hataismi>:
+    İsmi verilen hata gerçekleştiğinde çalışacak blok
+    """ EĞER İSİM VERİLMEZSE SADECE except: YAZILIRSA TÜM HATALARI YAKALAR"""
+finally:
+    Hata olsa da olmasa da en son çalışacak blok
+```
 
 
 
