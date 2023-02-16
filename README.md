@@ -27,6 +27,9 @@
 6.2 [Slice](https://github.com/erkamesen/Python-ve-Algoritma#slice) <br>
 7. [Koşullar](https://github.com/erkamesen/Python-ve-Algoritma/blob/main/README.md#ko%C5%9Fullar)
 8. [Hata Yakalama](https://github.com/erkamesen/Python-ve-Algoritma#hata-yakalama)
+9. [Döngüler](https://github.com/erkamesen/Python-ve-Algoritma#d%C3%B6ng%C3%BCler) <br>
+9.1 [While Döngüsü](https://github.com/erkamesen/Python-ve-Algoritma#while-d%C3%B6ng%C3%BCs%C3%BC) <br>
+9.2 [For Döngüsü](https://github.com/erkamesen/Python-ve-Algoritma#for-d%C3%B6ng%C3%BCs%C3%BC) <br>
 
 
 # Algoritma
