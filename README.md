@@ -140,7 +140,28 @@ x = None  -> undefined
 
 del x -> Değişkeni silme
 
+## Dönüşümler
 
+type() ile elimizdeki verinin türünü öğrenebiliriz.
+
+type("a") -> <class 'str'> <br>
+type(13) -> <class 'int'> <br>
+type(1.5) -> <class 'float'> <br>
+type(False) -> <class 'bool'> <br>
+type(b"bc0ca") -> <class 'bytes'> <br>
+type(None) -> <class 'NoneType'> <br>
+
+Şimdi veri tiplerinin kendi arasındaki dönüşümlerine göz atalım.
+
+- int("15") -> 15 <br>
+- int(16,86) -> 16 > Float kısmı kesiyor yuvarlama işlemi daima tabana oluyor. <br>
+- float(-44) -> -44.0 <br>
+- round(23.12491204, 1) -> 23.1 > 2. parametre(virgülden sonrası) float kısmın basamak sayısını belirtmek için kullanılıyor. <br>
+- list("abc") -> ["a", "b", "c"] <br>
+- dict([(3, "three"), (1, "one")]) -> {1:"one", 3:"three"} <br>
+- set([one,two]) -> {"one", "two"} <br> 
+- str(5) -> "5"<br> 
+--- --- --- ---
 
 
 
