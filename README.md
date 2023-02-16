@@ -75,9 +75,9 @@ Algoritmanın belirli semboller yardımı ile görsel bir şekilde oluşturulmas
 
 ### Mantıksal Operatörler
 
-- Ve(and) operatörü && simgesi ile ifade edilir.
-- Veya(or) operatörü II simgesi ile ifade edilir.
-- Değil (not) operatörü ! simgesi ile ifade edilir.
+- Ve(and) operatörü && simgesi ile ifade edilir. True dönmesi için tüm durumların True olması gerekiyor.
+- Veya(or) operatörü II simgesi ile ifade edilir. True dönmesi için her hangi bir durumun True olması gerekiyor.
+- Değil (not) operatörü ! simgesi ile ifade edilir. Durum True ise False, False ise True döndürüyor.
 
 # Python
 ## Temel Veri Tipleri
@@ -199,6 +199,69 @@ Dizideki ilk itemin indexi 0, son itemin indexi -1 dir.
 - lst[-3:-1] = [30,40]
 - lst[:3] = [10, 20 30]
 - lst[3:] = [40, 50]
+
+
+## Koşullar
+
+![if-else-flowchart](https://user-images.githubusercontent.com/120065120/219370219-8da20fab-9aa9-4dd3-beb1-22f921cf63c5.jpg)
+
+```
+if koşul:
+    statements block
+elif koşul:
+    statements block
+else:
+    statements block
+    
+```
+
+Eğer if bloğundaki koşul doğru ise blokda yazılan kodlar çalışacaktır. <br> 
+Eğer if bloğundaki koşul doğru değil ise ve elif bloğu var ise elif bloğu çalışacaktır. <br> 
+Eğer koşulların hiç biri gerçekleşmez ise else bloğu çalışacaktır. <br> 
+
+```
+yas=19
+if yas<18:
+  print("Çocuk")
+elif yas>65:
+  print("Yaşlı")
+else:
+  print("Genç")
+  
+# Genç
+```
+
+Eğer koşulları etkili bir şekilde kullanmak istiyorsak hangi durumların True hangi durumların False döndüreceğini bilmemiz gerekiyor.
+
+- bool(0) -> False
+- bool(1) -> True
+- bool(-152123213) -> True
+- bool([]) -> False
+- bool(["a", 2, False]) -> True
+- bool({}) -> False
+- bool({1, 3}) -> True
+- bool(None) -> False
+- bool(b"") -> False
+- bool(b"x") -> True
+- bool("") -> False
+- bool("3") -> True
+
+Örnek vermek gerekirse bir web sitesinden veri çekiceksiniz.Veriyi çekmeden önce verileri eklemek için bir liste oluşturalım.
+> veri_cek = []
+programımızı çalıştırdığımızda koşul için şöyle bir if-else bloğu yazabiliriz.
+
+```
+if veri_cek:
+    # Veri çekilirse yapılacak işlemler.
+else:
+    # Veri çekilmezse yapılacak işlemler.
+```
+Özetlemek gerekirse; eğer veri çekilip de listemize eklenirse listemiz True değer döndürecektir lakin siteden veri kalkmış olabilir veya HTML tag leri değişmiş olabilir böyle bir durumda veriyi çekemeyeceğimizden listemiz boş olacaktır bu sebeple bize False değer döndürecektir ve dolayısıyla else bloğu çalışacaktır.
+
+
+
+
+
 
 
 
