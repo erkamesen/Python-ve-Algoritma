@@ -6,21 +6,21 @@
 
 # İçerik:
 ### Algoritma
-1. [Algoritma](https://github.com/erkamesen/Python-ve-Algoritma/README.md#algoritma) <br>
-1.1. [Algoritma Nedir ?](https://github.com/erkamesen/Python-ve-Algoritma/README.md#algoritma-nedir-) <br>
-2. [Akış Diyagramları](https://github.com/erkamesen/Python-ve-Algoritma/README.md#akış-diyagramları)
-3. [Operatörler](https://github.com/erkamesen/Python-ve-Algoritma/README.md#operatörler) <br>
-3.1. [İşlem Operatörleri](https://github.com/erkamesen/Python-ve-Algoritma/README.md#işlem-opreatörleri) <br>
-3.1.1 [İşlem Önceliği](https://github.com/erkamesen/Python-ve-Algoritma/README.md#işlem-önceliği) <br>
-3.2 [Karşılaştırma Operatörleri](https://github.com/erkamesen/Python-ve-Algoritma/README.md#karşılaştırma-operatörleri) <br>
-3.3 [Mantıksal Operatörler](https://github.com/erkamesen/Python-ve-Algoritma/README.md#mantıksal-operatörler)
+1. [Algoritma](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-1) <br>
+1.1. [Algoritma Nedir ?](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-nedir-) <br>
+2. [Akış Diyagramları](https://github.com/erkamesen/Python-ve-Algoritma#ak%C4%B1%C5%9F-diyagramlar%C4%B1)
+3. [Operatörler](https://github.com/erkamesen/Python-ve-Algoritma#operat%C3%B6rler) <br>
+3.1. [İşlem Operatörleri](https://github.com/erkamesen/Python-ve-Algoritma#i%CC%87%C5%9Flem-operat%C3%B6rleri) <br>
+3.1.1 [İşlem Önceliği](https://github.com/erkamesen/Python-ve-Algoritma#i%CC%87%C5%9Flem-%C3%B6nceli%C4%9Fi) <br>
+3.2 [Karşılaştırma Operatörleri](https://github.com/erkamesen/Python-ve-Algoritma#kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-operat%C3%B6rleri) <br>
+3.3 [Mantıksal Operatörler](https://github.com/erkamesen/Python-ve-Algoritma#mant%C4%B1ksal-operat%C3%B6rler)
 ### Python
-1. [Python](https://github.com/erkamesen/Python-ve-Algoritma/README.md#python)
-2. [Temel Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma/README.md#temel-veri-tipleri)
-3. [Container Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma/README.md#container-veri-tipleri) <br>
-3.1 [Sıralı Diziler](https://github.com/erkamesen/Python-ve-Algoritma/README.md#sıralı-diziler) <br>
-3.1 [Key Containers](https://github.com/erkamesen/Python-ve-Algoritma/README.md#key-containers) <br>
-4. [Değişken Tanımlama](https://github.com/erkamesen/Python-ve-Algoritma/README.md#de%C4%9Fi%C5%9Fken-tan%C4%B1mlama) 
+1. [Python](https://github.com/erkamesen/Python-ve-Algoritma#python-1)
+2. [Temel Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma#temel-veri-tipleri)
+3. [Container Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma#container-veri-tipleri) <br>
+3.1 [Sıralı Diziler](https://github.com/erkamesen/Python-ve-Algoritma#s%C4%B1ral%C4%B1-diziler) <br>
+3.1 [Key Containers](https://github.com/erkamesen/Python-ve-Algoritma#key-containers) <br>
+4. [Değişken Tanımlama](https://github.com/erkamesen/Python-ve-Algoritma#de%C4%9Fi%C5%9Fken-tan%C4%B1mlama) 
 # Algoritma
 ## Algoritma Nedir ?
 
