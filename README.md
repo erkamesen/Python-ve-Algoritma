@@ -26,7 +26,7 @@
 6.1 [Index](https://github.com/erkamesen/Python-ve-Algoritma#index) <br>
 6.2 [Slice](https://github.com/erkamesen/Python-ve-Algoritma#slice) <br>
 7. [Koşullar](https://github.com/erkamesen/Python-ve-Algoritma/blob/main/README.md#ko%C5%9Fullar)
-8. [Hata Yakalama]((https://github.com/erkamesen/Python-ve-Algoritma#hata-yakalama))
+8. [Hata Yakalama](https://github.com/erkamesen/Python-ve-Algoritma#hata-yakalama)
 
 
 # Algoritma
@@ -274,6 +274,89 @@ except <Hataismi>:
 finally:
     Hata olsa da olmasa da en son çalışacak blok
 ```
+
+## Döngüler
+### While Döngüsü
+![623c0c66fad507a80764a3f5_while-loop-flowchart](https://user-images.githubusercontent.com/120065120/219427685-dfb78785-0661-4fdd-872a-c692aac1bfd4.png)
+
+verilen koşul True olduğu sürece sonsuza kadar dönebilen döngülerdir.
+
+```
+while koşul:
+    # koşul True ise gerçekleşicek kod.
+```
+> Loop Control
+> - Break -> Döngüyü durdur.
+> - continue -> Adımı atla.
+
+```
+s = 0
+i = 1
+while i <= 100:
+    s += i**2
+    i+=1
+print("Toplam:", s)
+# Toplam: 338350
+```
+Burda her adımda ilk olarak i nin karesini alıp s değişkeni ile topluyoruz ve s değişkenini güncelliyoruz.
+Ardından her döngüde i değerini 1 arttırıyoruz. i 100 veya 100 den küçük olduğu sürece koşulumuz True döneceği için döngü devam ediyor.
+i 101 olduğu an while döngüsünün kapısında bekleyen bodyguardlar tarafından hoop dur hemşerim nereye denilerek hor görülüyor ve içeri alınmıyor :)
+
+### For Döngüsü
+
+![623c0c5447c67e81d4ac3f35_for-loop-flowchart](https://user-images.githubusercontent.com/120065120/219440910-f21b0b04-e95e-4c63-8286-10ec343f4019.png)
+
+for loopu verilen dizinin her elemanını döndüğü için koşula bağlı olmaktan ziyade item sayısı kadar döner.
+
+```
+for <variable> in dizi:
+    # kod bölümü
+```
+
+Listelerde for: <br>
+
+Listenin uzunluğu kadar bir döngü oluşturur ve değişkene teker teker listenin içindeki itemleri tanımlar.
+```
+isim_listesi = ["Erkam","Ensar","Furkan"]
+for isim in isim_listesi:
+    print(isim)
+# Erkam
+# Ensar
+# Furkan
+```
+Stringlerde for: <br>
+
+stringler de for döngüsü ile tüm karakterleri teker teker dolaşabiliriz.
+```
+kelime = "safranbolu çok güzel şehirdir."
+count = 0
+for harf in kelime:
+    if harf == "a":
+        count += 1
+print(count)
+# 2
+```
+
+range() ile for: <br>
+
+range() fonksiyonu bize girilen değere kadar (varsayılan olarak 0 dan başlayıp) verilen değere kadar olan sayıları kapsayan bir dizi oluşturur.
+range(başlangıç, bitiş, adım)
+```
+meyveler = ["elma","armut","kivi","portakal","mandalina","greyfurt"]
+for i in range(len(meyveler)):
+    if i%2 == 0:
+        print(meyveler[i])
+# elma
+# kivi
+# mandalina
+```
+
+- list(range(5)) -> [0,1, 2, 3, 4]
+- set(range(3, 7)) -> {3, 4, 5, 6, 7}
+- tuple(range(2, 12, 3) -> (2, 5, 8, 11)
+
+
+
 
 
 
