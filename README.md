@@ -163,6 +163,40 @@ type(None) -> <class 'NoneType'> <br>
 - str(5) -> "5"<br> 
 --- --- --- ---
 
+## Dizilerde Slice ve Index
+
+Dizideki ilk itemin indexi 0, son itemin indexi -1 dir.
+
+![image](https://user-images.githubusercontent.com/120065120/219366076-43526a7e-4d86-4581-9e19-fef769b1d4cd.png)
+
+- Dizideki item sayısı -> len(lst) = 5 <br> 
+
+### Index
+- lst[0] = 10 <br> 
+- lst[1] = 20 <br> 
+- lst[2] = 30 <br> 
+- lst[3] veya lst[-2] = 40 <br> 
+- lst[4] veya lst[-1] = 50 <br> 
+
+### Slice
+
+> lst[başlangıçIndex:bitişIndex:Adım]
+
+- lst[::] = [10, 20, 30, 40, 50]
+- lst[:] = [10, 20, 30, 40, 50]
+- lst [:-1] = [10, 20, 30, 40]
+- lst[1:-1] = [20, 30, 40]
+- lst[::2] = [10, 30, 50]
+- lst[::-1] = [50, 40, 30, 20, 10]
+- lst[::-2] = [50, 30, 10]
+- lst[1:3] = [20,30]
+- lst[-3:-1] = [30,40]
+- lst[:3] = [10, 20 30]
+- lst[3:] = [40, 50]
+
+
+
+
 
 
 
