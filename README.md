@@ -21,6 +21,12 @@
 3.1 [Sıralı Diziler](https://github.com/erkamesen/Python-ve-Algoritma#s%C4%B1ral%C4%B1-diziler) <br>
 3.1 [Key Containers](https://github.com/erkamesen/Python-ve-Algoritma#key-containers) <br>
 4. [Değişken Tanımlama](https://github.com/erkamesen/Python-ve-Algoritma#de%C4%9Fi%C5%9Fken-tan%C4%B1mlama) 
+5. [Dönüşümler](https://github.com/erkamesen/Python-ve-Algoritma#d%C3%B6n%C3%BC%C5%9F%C3%BCmler)
+6. [Dizilerde Slice ve Index](https://github.com/erkamesen/Python-ve-Algoritma#dizilerde-slice-ve-index) <br>
+6.1 [Index](https://github.com/erkamesen/Python-ve-Algoritma#index) <br>
+6.2 [Slice](https://github.com/erkamesen/Python-ve-Algoritma#slice) <br>
+
+
 # Algoritma
 ## Algoritma Nedir ?
 
