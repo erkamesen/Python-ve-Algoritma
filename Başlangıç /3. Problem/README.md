@@ -8,7 +8,7 @@ Kullanıcıdan "isim" ve "yaş" bilgisi alıp ekrana alttaki formatta gösterece
 Adımlar:
 - Kullanıcıdan isim bilgisi al ve bir değişkene ata.
 - Kullanıcıdan yaş bilgisi al ve bir değişkene ata.
-- Merhaba benim adım <isimDeğişkeni> ve <yaşDeğişkeni> yaşındayım. Şeklinde çıktı da göster.
+- Merhaba benim adım <isimDeğişkeni> ve <yaşDeğişkeni> yaşındayım. Şeklinde çıktı da göster. <br>
 Bitti.
 
 ```
@@ -27,7 +27,7 @@ Kullanıcıdan ders bilgisi ve not bilgisini alıp ekrana alttaki formatta göst
 Adımlar:
 - Kullanıcıdan ders bilgisi al ve bir değişkene ata.
 - Kullanıcıdan not bilgisi al ve bir değişkene ata.
-- <dersDeğişkeni> dersinden tam olarak <notDeğişkeni> aldım.
+- <dersDeğişkeni> dersinden tam olarak <notDeğişkeni> aldım. <br>
 Bitti.
 
 ```
