@@ -36,11 +36,11 @@ Adımlar:
 End
 
 ```
-not = int(input("Lütfen notunuzu giriniz: "))
-if not >= 60:
+ders_notu = int(input("Lütfen notunuzu giriniz: "))
+if ders_notu >= 60:
   print("Geçtiniz")
 else:
-  fark = 60 - not
+  fark = 60 - ders_notu
   print(f"Kaldınız, {fark} puan daha lazım.")
 ```
 
