@@ -13,7 +13,7 @@ Adımlar:
 - Merhaba benim adım <isimDeğişkeni> ve <yaşDeğişkeni> yaşındayım. Şeklinde çıktı da göster. <br>
 End <br>
 
-'
+
 ```
 ad = input("Adınız: ")
 yas = input("Yaşınız: ")
@@ -21,7 +21,7 @@ print(f"Merhaba benim adım {ad} ve {yas} yaşındayım.")
 &
 print("Merhaba benim adım {} ve {} yaşındayım.".format(ad, yas))
 ```
-'
+
 ## Soru 3.2
 
 'Kullanıcıdan ders bilgisi ve not bilgisini alıp ekrana alttaki formatta gösterecek programı yazın. <br>
@@ -35,11 +35,11 @@ Adımlar:
 - <dersDeğişkeni> dersinden tam olarak <notDeğişkeni> aldım. <br>
 End <br>
 
-'
+
 ```
 ders = input("Lütfen bir ders giriniz: ")
 not = input("Lütfen notunuzu giriniz: ")
 print(f"{} dersinden tam olarak {} aldım.")
 print("{} dersinden tam olarak {} aldım.".format(ders, not))
 ```
-'
+
