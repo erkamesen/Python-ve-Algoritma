@@ -4,12 +4,12 @@
 
 Verilen tabloyu oluşturun.-Boşluklar için 2 tane tab("\t") kullanabilirsiniz.-
 ```
-Sayı 	Karesi
-1		  1
-2		  4
-3		  9
-4		  16
-5		  25
+Sayı  Karesi
+1     1
+2     4
+3     9
+4     16
+5     25
 ```
 Adımlar:
 1. print() fonksiyonu ile "Sayı" & "Karesi"  2 adet tab ile birlikte yazın.
@@ -32,12 +32,12 @@ print("5\t\t"+str(5**2))
 
 Verilen tabloyu oluşturun.-Boşluklar için 2 tane tab("\t") kullanabilirsiniz.-
 ```
-Sayı 	Küpü
-1		  1
-2		  8
-3		  27
-4		  64
-5		  125
+Sayı  Küpü
+1     1
+2     8
+3     27
+4     64
+5     125
 ```
 Adımlar:
 1. print() fonksiyonu ile "Sayı" & "Küpü"  2 adet tab ile birlikte yazın.
