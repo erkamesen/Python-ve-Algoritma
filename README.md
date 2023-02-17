@@ -30,7 +30,12 @@
 9. [Döngüler](https://github.com/erkamesen/Python-ve-Algoritma#d%C3%B6ng%C3%BCler) <br>
 9.1 [While Döngüsü](https://github.com/erkamesen/Python-ve-Algoritma#while-d%C3%B6ng%C3%BCs%C3%BC) <br>
 9.2 [For Döngüsü](https://github.com/erkamesen/Python-ve-Algoritma#for-d%C3%B6ng%C3%BCs%C3%BC) <br>
-
+10. [Fonksiyonlar](https://github.com/erkamesen/Python-ve-Algoritma#fonksiyonlar)
+11. [Genel Built-in Fonksiyonlar](https://github.com/erkamesen/Python-ve-Algoritma#genel-built-in-fonksiyonlar)
+12. [Dictionary Metotları](https://github.com/erkamesen/Python-ve-Algoritma#dictionary-metotlar%C4%B1)
+13. [Küme Metotları](https://github.com/erkamesen/Python-ve-Algoritma#k%C3%BCme-metotlar%C4%B1)
+14. [Liste Metotları](https://github.com/erkamesen/Python-ve-Algoritma#liste-metotlar%C4%B1)
+15. [String Metotları](https://github.com/erkamesen/Python-ve-Algoritma#string-metotlar%C4%B1)
 
 # Algoritma
 ## Algoritma Nedir ?
