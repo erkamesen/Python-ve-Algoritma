@@ -358,6 +358,136 @@ for i in range(len(meyveler)):
 - set(range(3, 7)) -> {3, 4, 5, 6, 7}
 - tuple(range(2, 12, 3) -> (2, 5, 8, 11)
 
+## print() Parametreleri
+
+Default olarak:
+- sep=" "
+- end = "\n"
+- file = sys.stdout
+
+"sep" parametresi virgül ile ayırıp display etmek için yazdığımız parametreleri varsayılan olarak aralarında birer boşluk(" ") bırakarak bize çıktısını veriyor. <br>
+Eğer farklı bir karakter harf vs. ile ayırmak istiyorsak bunu belirtmemiz yeterli.
+
+```
+print("elma","armut","kiraz","kivi")
+# elma armut kiraz kivi
+print("elma","armut","kiraz","kivi", sep="-")
+# elma-armut-kiraz-kivi
+```
+
+"end" parametresi varsayılan olarak verilen parametreleri çıktı olarak verdikten sonra "\n" ile bir alt satıra geçer.Özellikle bunu looplarda print() kullandığımız zaman daha iyi anlayabiliriz.
+
+```
+for i in range(5):
+    print(i)
+# 0
+# 1
+# 2
+# 3
+# 4
+for i in range(5):
+    print(i, end=",")
+# 0,1,2,3,4,
+```
+
+"file" parametresi bize çıktının nereye verileceğini gösterir varsayılan olarak kullandığımız IDE nin konsolu yani sys.stdout dur.Bir dosya açıp dilersek print() fonksiyonu ile çıktılarımızı oraya da verebiliriz.
+
+
+```
+f = open("deneme.txt", "w") 
+print("bu konsola değil txt dosyasına yazılacak", file=f)
+f.close()
+```
+
+## Fonksiyonlar
+Diğer programlama dillerinde olduğu gibi pythonda da kendimizi belli bölümlerde defalarca tekrar etmek yerine fonksiyon yazıp hem kendimizi yormayız hem de kodun okunaklığı açısından güzel bir harekette bulunmuş oluruz. Fonksiyonu bir kere yazdıktan sonra istediimiz kadar çağırıp istediğimiz yerde  def i kullandam sadece isimi ve parantez içini yazarak kullanabiliriz.
+
+def keywordu ile başlayıp fonksiyonumuzun ismi ile devam ediyoruz. Parantez içine ise parametrelerimizi yazıyoruz.
+```
+def fonksiyonAdı(a, b, c):
+    """Dökümantasyon"""
+    # Kodlarımızı buraya yazıyoruz.
+    return res
+# res i burda bir result döndürüyoruz anlamında yazdım oraya her hangi bir şey gelebilir.
+```
+verilen 3 sayıyı toplayıp 2 ile çarpan fonksiyon:
+```
+def toplaVeCarp(sayi1, sayi2, sayi3):
+    toplam = sayi1 + sayi2 + sayi3
+    sonuc = toplam*2
+    return sonuc
+print(toplaVeCarp(1,4,8)) veya a = toplaVeCarp(1,4,8) print(a)
+# 13
+```
+İleri düzey fonksiyonlar
+```
+def (x, y, z, *args, a=3, b=5, **kwargs):
+    # *args -> tuple olarak gelecektir.
+    # ** kwargs -> dict olarak gelecektir.
+    # eşitlik verilenler default olarak verilen değerlerdir.
+```
+
+
+## Genel Built-in Fonksiyonlar
+
+lst1 = ["erik", "ayva", "vişne", "çilek"]
+lst2 = [12, 2, 7, 21]
+
+- len() -> Dizi içindeki eleman sayısını verir -> len(lst1) = 4
+- min() -> Dizi içindeki en küçük elemanı verir eğer veri stringse karakter sayısına bakar -> min(lst1) = 2 & min(lst1) = "ayva"
+- max() -> Dizi içindeki en büyük elemanı verir eğer veri stringse karakter sayısına bakar -> max(lst1) = 21 & max(lst1) = "çilek"
+- sum() -> Eğer dizi içindeki elemanlar integer veya float ise hepsini toplar aksi halde hata döndürür. -> sum(lst2) = 42
+- sorted() -> Dizi içindeki elemanları default olarak küçükten büyüğe göre sıralar. reversed=False parametresi True yapılırsa büyükten küçüğe göre sıralar -> sorted(lst2) = [2, 7, 12, 21] & sorted(lst2, reversed=True) = [21, 12, 7, 2]
+- <val> in dizi -> Eğer aradığımız değer listede varsa True, yoksa False döndürecektir. -> 3 in lst2 = False & 2 in lst2 = True
+- zip() -> zip() ile birden fazla diziye indexlerine göre eşleyip tuple a çevirebiliriz. -> zip(lst1, lst2) = <zip object at 0x7f0a1c394640> &  list(zip(lst1, lst2)) = [('erik', 12), ('ayva', 2), ('vişne', 7), ('çilek', 21)]
+
+## Dictionary Metotları
+
+
+- d[key] = value -> sözlüğe item eklemek
+> d[key] -> # value
+- d.update(d2) -£ 2 sözlüğü birleştirmek
+- d.keys() d.values() d.items() -> Sözlüğü iterable olarak döngüde kullanmak için kullanırız. keys() sadece keyleri verir, values() sadece keylere karşılık gelen değerleri verir, items() tuple şeklinde (key, value) çifti verir.
+- d.pop(key, None) -> verilen keyi value ile birlikte siler.Default olarak 2. parametresi None dur.
+- d.get(key, None) -> Keyi verilen değeri getirir. Default olarak None dur.
+
+## Küme Metotları
+
+Operatorler:
+- | -> union - 2 kümeyi birleştirir.
+- & -> intersection - 2 kümenin kesişimini alır.
+- - -
+- s.update(s2) -> 2 kümeyi birleştirir.
+- s.add(key) -> Kümeye key ekler.
+- s.discard(key) & a.remove(key) -> verilen keyi kümeden siler
+- s.pop() -> ilk elemanı atar
+
+## Liste Metotları
+
+- lst.append(value) -> verilen değeri listenin en sonuna ekler.
+- lst.extend(dizi) -> verilen değerleri listenin en sonuna ekler.
+- lst.insert(index, value) -> verilen indexe verilen value yu ekler.
+- lst.remove(value) -> verilen değeri listden siler.
+- lst.pop(index) -> indexi verilen değeri listeden atar. Varsayılan olarak en sonuncuyu atar.
+- lst.sort & lst.reverse() -> listeyi sıralar / terse çevirir.
+
+## String Metotları
+
+- s.startswith() -> string verilen parametre ile başlıyorsa True başlamıyorsa False döndürür.
+- s.endswith() -> string verilen parametre ile bitiyorsa True bitmiyorsa False döndürür.
+- s.count() -> verilen karakterin stringde ki sayısını döndürür.
+- s.index() -> verilen karakterin bulunduğu ilk indexi döndürür.
+- s.upper() -> Tüm harfleri büyük yapar.
+- s.lower() -> Tüm harfleri küçük yapar.
+- s.title() -> Tüm kelimelerin ilk harfini büyük yapar.
+- s.capitalize() -> Yalnızca ilk kelimenin ilk harfini büyük yapar.
+- s.strip() -> Sağ ve soldaki fazla boşlukları yok eder.
+- s.lstrip() & s.rstrip() -> sol/sağ boşlukları yok eder.
+- s.split() -> belirtilen karakterden stringi ayırıp listeye dönüştürür varsayılan olarak " " dur.
+- s.join() -> parametre olarak liste alır. liste elemanlarını kullandığımız string ile araları doldurarark birleştirir.
+
+
+
 
 
 
