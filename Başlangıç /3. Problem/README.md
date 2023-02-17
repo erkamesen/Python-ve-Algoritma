@@ -3,13 +3,16 @@
 ## Soru 3.1
 
 'Kullanıcıdan "isim" ve "yaş" bilgisi alıp ekrana alttaki formatta gösterecek programı yazın. <br>
-> Merhaba benim adım Erkam ve 27 yaşındayım.'
+> Merhaba benim adım Erkam ve 27 yaşındayım.
+
+'
 
 Adımlar:
 - Kullanıcıdan isim bilgisi al ve bir değişkene ata.
 - Kullanıcıdan yaş bilgisi al ve bir değişkene ata.
 - Merhaba benim adım <isimDeğişkeni> ve <yaşDeğişkeni> yaşındayım. Şeklinde çıktı da göster. <br>
-Bitti.
+End <br>
+
 '
 ```
 ad = input("Adınız: ")
@@ -22,13 +25,16 @@ print("Merhaba benim adım {} ve {} yaşındayım.".format(ad, yas))
 ## Soru 3.2
 
 'Kullanıcıdan ders bilgisi ve not bilgisini alıp ekrana alttaki formatta gösterecek programı yazın. <br>
-> Diferansiyel Denklemler dersinden tam olarak 100 aldım.'
+> Diferansiyel Denklemler dersinden tam olarak 100 aldım.
+
+'
 
 Adımlar:
 - Kullanıcıdan ders bilgisi al ve bir değişkene ata.
 - Kullanıcıdan not bilgisi al ve bir değişkene ata.
 - <dersDeğişkeni> dersinden tam olarak <notDeğişkeni> aldım. <br>
-Bitti.
+End <br>
+
 '
 ```
 ders = input("Lütfen bir ders giriniz: ")
