@@ -43,7 +43,7 @@ End
 ```
 sayi_demeti = tuple()
 toplam = 0
-for i in range(10):
+for i in range(8):
   sayi = int(input("Lütfen bir sayı giriniz: "))
   sayi_demeti += (sayi, )
   toplam += sayi
