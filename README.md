@@ -490,8 +490,10 @@ Operatorler:
 - s.lstrip() & s.rstrip() -> sol/sağ boşlukları yok eder.
 - s.split() -> belirtilen karakterden stringi ayırıp listeye dönüştürür varsayılan olarak " " dur.
 - s.join() -> parametre olarak liste alır. liste elemanlarını kullandığımız string ile araları doldurarark birleştirir.
-
-
+- s.isalnum() -> String, en az bir karakterden oluşuyor ve tüm karakterler alfanümerik (harf veya rakam) değerlerden oluşuyorsa, “TRUE” değeri üretir.
+- s.isalpha() -> String, en az bir karakterden oluşuyor ve tüm karakterler alfabetik (harf) değerlerden oluşuyorsa, “TRUE” değeri üretir. 
+- s.isdecimal() -> String, en az bir karakterden oluşuyor ve tüm karakterler ondalık değerlerden oluşuyorsa, “TRUE” değeri üretir.
+- s.isdigit() -> String, en az bir karakterden oluşuyor ve tüm karakterler rakamlardan oluşuyorsa, “TRUE” değeri üretir.
 
 
 
