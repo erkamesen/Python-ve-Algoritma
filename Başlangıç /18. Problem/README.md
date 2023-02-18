@@ -13,7 +13,7 @@ bilgi={"ad":"Müşterinin Adı",
 '
 
 Verilenler:
-```
+
 bilgi={"ad":"Müşterinin Adı", <br>
        "adres":"Müşterinin Adresi",<br>
        "telefon":"Müşterinin Telefonu"}
