@@ -47,7 +47,7 @@ Adımlar:
 End
 
 ```
-sayi = int(input("Karesi alınacak sayıyı giriniz: "))
+sayi = int(input("Küpü alınacak sayıyı giriniz: "))
 sayi **= 3
 print(f"Sayının küpü: {sayi}")
 ```
