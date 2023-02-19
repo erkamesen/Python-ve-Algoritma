@@ -18,7 +18,7 @@ else:
   print("Kaldın")
 ```
 
-## Soru 25.1
+## Soru 25.2
 
 'Kullanıcıya öğrenci olup olmadığını sorup eğer öğretmense alttaki not listesini gösteren eğer öğrenciyse "Not sistemimize hoşgeldiniz" yazan programı tasarlayın. <br>
 not_listesi = [("ahmet", 44), ("ali", 20), ("erkam", 100)]'
