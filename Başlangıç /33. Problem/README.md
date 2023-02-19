@@ -38,7 +38,7 @@ Adımlar:
 6. listeyi ekrana yaz. <br>
 End
 
-
+```
 renkler = ["siyah", "mavi", "pembe", "kırmızı","yeşil"]
 for i in range(3):
   renk = input("Lütfen kontrol etmek için bir renk giriniz: ")
