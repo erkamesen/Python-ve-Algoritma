@@ -22,7 +22,7 @@ else:
  
 ## Soru 23.2
  
-'Kullanıcıdan bir gün bilgisi alıp hafta içi mi hafta sonu mu olduğunu ekrana çıktı olarak yazan programı tasalaryın. Eğer 7 günden farklı bir şey yazarsa program hata versin.'
+'Kullanıcıdan bir gün bilgisi alıp hafta içi mi hafta sonu mu olduğunu ekrana çıktı olarak yazan programı tasarlayın. Eğer 7 günden farklı bir şey yazarsa program hata versin.'
 
 Adımlar:
 1. içinde hafta içine ait günlerin büyük harfler ile saklandığı bir liste oluştur.
