@@ -48,9 +48,9 @@ import array as arr
 
 def artik_yil(year):
   if year %4 == 0:
-  return True
-else:
-  return False
+    return True
+  else:
+    return False
 
 a = arr.array("i", [])
 for i in range(5):
