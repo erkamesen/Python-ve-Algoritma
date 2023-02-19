@@ -20,7 +20,7 @@ elif sayi > 0:
   print(f"{sayi} Pozitif")
 ```
 
-## Soru 29.1
+## Soru 29.2
 
 'Kullanıcıdan alınan sayının negatif mi pozitif mi yada sıfır mı olduğunu kontrol eden programı tasarlayın.'
 
