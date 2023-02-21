@@ -15,10 +15,12 @@ Adımlar:
 End
 
 ```
-sayi1 = int(input("Başlangıç Sayısı: "))
-sayi2 = int(input("Bitiş Sayısı: "))
+sayi1 = int(input("Başlangıç Sayısı: ")) # 3
+sayi2 = int(input("Bitiş Sayısı: ")) # 8
 for i in range(sayi1, sayi2+1): # döngüdeki son sayı sayılmadığı için +1 veriyoruz.
   print(i, end=" ")
+
+# 3 4 5 6 7 8 
 ```
 
 
@@ -39,5 +41,32 @@ for sayi in range(1,101):
     print(sayi)
   else:
     continue
+"""
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+44
+48
+52
+56
+60
+64
+68
+72
+76
+80
+84
+88
+92
+96
+100
+"""
 ```
 
