@@ -56,10 +56,10 @@ def say(kucuk_sayi, buyuk_sayi):
 sayi1 = int(input("Lütfen bir sayı giriniz: ")) # 16
 sayi2 = int(input("Lütfen bir sayı giriniz: ")) # 3
 
-if sayi1 > sayi2:
-  say(buyuk_sayi=sayi1, kucuk_sayi=sayi2)
+if sayi1 < sayi2:
+  say(kucuk_sayi=sayi1, buyuk_sayi=sayi2)
 else:
-  say(buyuk_sayi=sayi2, kucuk_sayi=sayi1)
+  say(kucuk_sayi=sayi2, buyuk_sayi=sayi1)
 
 """
 3
