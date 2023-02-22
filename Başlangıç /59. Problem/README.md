@@ -59,5 +59,5 @@ for kelime in kelime_listesi:
   else:
     continue
 print(f"{kelime_kontrol} kelimesinden toplam {toplam} adet mevcut.") # 4
-# mumdur kelimesinden toplam 4 adet mevcut.")
+# mumdur kelimesinden toplam 4 adet mevcut.
 ```
