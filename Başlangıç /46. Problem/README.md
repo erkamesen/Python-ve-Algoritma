@@ -3,7 +3,7 @@
 ## Soru 46.1
 
 'Kullanıcıdan 5 adet not alıp bunları arrayde saklayan, ardından kullanıcının ismini de alıp, notların ortlaması hesaplayan ve notlarla sırasıyla aşağıdaki tabloyu dolduran programı tasarlayın.
-'''
+```
 Merhaba {kullanıcı adı}
 Not Ortalaman: {notların ortalaması}
 Tüm Notlar:
@@ -12,7 +12,7 @@ Matematik: {not 2}
 Fizik: {not 3}
 Türkçe: {not 4}
 Kimya: {not 5}
-'''
+```
 
 Adımlar:
 1. array modülünün içinden array fonksiyonunu import et.
