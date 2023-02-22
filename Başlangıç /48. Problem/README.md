@@ -22,7 +22,7 @@ Print(f"Birinci sayı: {a}\nİkinci sayı: {b}")
 
 c = a # c = 3
 a = b # a = 5
-b = c = b = 3 
+b = c # b = 3 
 
 Print(f"Birinci sayı: {b}\nİkinci sayı: {a}")
 ```
