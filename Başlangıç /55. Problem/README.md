@@ -23,7 +23,7 @@ elif sorgu == "h":
 else:
   print("Lütfen geçerli bir giriş sağlayınız.")
 ```
-## Soru 55.1
+## Soru 55.2
 
 'Kullanıcıya saati göstermek için evet yada hayır sorusu sorup evet derse güncel saati gösteren programı tasarlayın.'
 
@@ -41,7 +41,7 @@ End
 ```
 from datetime import datetime
 
-sorgu = input("Bugünün tarihini görmek ister misiniz ? (e/h): ").lower()
+sorgu = input("güncel saati görmek ister misiniz ? (e/h): ").lower()
 if sorgu == "e":
   saat = datetime.now().hour
   dakika = datetime.now().minute
