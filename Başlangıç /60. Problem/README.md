@@ -30,7 +30,7 @@ print(sozluk)
 ```
 sozluk = {1:"bir", 2:"iki", 3:"üç", 4:"dört", 5:"beş", 6:"altı", 7:"yedi", 8:"sekiz", 9:"dokuz", 10:"on"}
 ```
-'
+' <br>
 Adımlar:
 1. sözlüğün eleman sayısı kadar adımlı, 1 den eleman sayısının bir fazlasına kadar for döngüsü başlat.
 2. her adımda sözlüğün keyine adım for döngüsünden gelen değişkeni vererek değerini al.
