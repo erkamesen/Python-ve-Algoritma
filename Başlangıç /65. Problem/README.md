@@ -32,7 +32,7 @@ print("Alan:",alan_bul(kenar_uzunlugu)) # 25
 print("Çevre:",cevre_bul(kenar_uzunlugu)) # 20
 ```
 
-## Soru 65.1
+## Soru 65.2
 'Kullanıcıdan alınan kare alanı bilgisine göre kullanıcıya karenin çevresini çıktı olarak veren fonksiyonla programı tasarlayın.A=a²P=4a'
 
 Adımlar:
