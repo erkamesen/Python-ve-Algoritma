@@ -40,7 +40,7 @@ Adımlar:
 - her adımda listenin son elemanını al ve bir değişkene ata. 
 - değişkeni oluşturulan tuple a ekle.
 - döngüyü bitir.
-- listeyi döndür
+- tuple ı döndür
 2. Fonksiyonu çağır ve sonucu bir değişkene ata.
 3. değişkeni çıktı olarak ver. <br>
 End.
