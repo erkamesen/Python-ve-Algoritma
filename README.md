@@ -7,6 +7,7 @@
 # İçerik:
 
 ### Algoritma
+
 1. [Algoritma](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-1) <br>
 1.1. [Algoritma Nedir ?](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-nedir-) <br>
 2. [Akış Diyagramları](https://github.com/erkamesen/Python-ve-Algoritma#ak%C4%B1%C5%9F-diyagramlar%C4%B1)
@@ -15,7 +16,9 @@
 3.1.1 [İşlem Önceliği](https://github.com/erkamesen/Python-ve-Algoritma#i%CC%87%C5%9Flem-%C3%B6nceli%C4%9Fi) <br>
 3.2 [Karşılaştırma Operatörleri](https://github.com/erkamesen/Python-ve-Algoritma#kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-operat%C3%B6rleri) <br>
 3.3 [Mantıksal Operatörler](https://github.com/erkamesen/Python-ve-Algoritma#mant%C4%B1ksal-operat%C3%B6rler)
+
 ### Python
+
 1. [Python](https://github.com/erkamesen/Python-ve-Algoritma#python-1)
 2. [Temel Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma#temel-veri-tipleri)
 3. [Container Veri Tipleri](https://github.com/erkamesen/Python-ve-Algoritma#container-veri-tipleri) <br>
