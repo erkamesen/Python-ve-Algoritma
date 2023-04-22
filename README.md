@@ -1,5 +1,4 @@
 # Python-ve-Algoritma
-
 <div style="width:100%;height:0;padding-bottom:43%;position:relative;">
 <img src="https://media.giphy.com/media/eChf44Gyj2VrO/giphy.gif">
 </div>
