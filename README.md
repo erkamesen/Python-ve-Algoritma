@@ -6,7 +6,6 @@
 # İçerik:
 
 ### Algoritma
-
 1. [Algoritma](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-1) <br>
 1.1. [Algoritma Nedir ?](https://github.com/erkamesen/Python-ve-Algoritma#algoritma-nedir-) <br>
 2. [Akış Diyagramları](https://github.com/erkamesen/Python-ve-Algoritma#ak%C4%B1%C5%9F-diyagramlar%C4%B1)
